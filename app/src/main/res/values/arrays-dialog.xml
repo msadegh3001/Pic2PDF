@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_filter">
+        <item>  ↑ تاریخ ثبت صعودی</item>
+        <item> ↓ تاریخ ثبت نزولی</item>
+        <item>↑ نام صعودی</item>
+        <item>↓ نام نزولی</item>
+        <item>↑ حجم فایل صعودی</item>
+        <item>↓ حجم فایل نزولی</item>
+    </string-array>
+    <string-array name="dialog_single_choice_array">
+        <item> دوربین</item>
+        <item>گالری</item>
+        <item>ثبت دستی</item>
+        <item>سایر</item>
+    </string-array>
+</resources>

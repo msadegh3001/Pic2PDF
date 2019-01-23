@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ir.takdev.Pic2pdf">
+
+    <application
+        android:name="App"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Application.Theme"
+        tools:replace="android:icon"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="ir.takdev.Pic2pdf.view.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ir.takdev.Pic2pdf.view.MainActivity" />
+        <activity android:name="ir.takdev.Pic2pdf.view.NewpdfActivity" />
+        <activity android:name="ir.takdev.Pic2pdf.view.CameraActivity"/>
+    </application>
+
+</manifest>
