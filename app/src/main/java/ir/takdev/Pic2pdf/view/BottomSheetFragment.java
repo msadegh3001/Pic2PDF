@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import ir.takdev.Pic2pdf.Actions;
-import ir.takdev.Pic2pdf.MyDialogInterface;
 import ir.takdev.Pic2pdf.R;
+import ir.takdev.Pic2pdf.Utility.Actions;
+import ir.takdev.Pic2pdf.Utility.MyDialogInterface;
 import ir.takdev.Pic2pdf.viewmodel.PDFFragmentViewModel;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 

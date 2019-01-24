@@ -15,18 +15,17 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Toast;
-import ir.takdev.Pic2pdf.Actions;
-import ir.takdev.Pic2pdf.MyDialogInterface;
+
 import ir.takdev.Pic2pdf.R;
+import ir.takdev.Pic2pdf.Utility.Actions;
+import ir.takdev.Pic2pdf.Utility.MyDialogInterface;
 import ir.takdev.Pic2pdf.viewmodel.PDFListViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
@@ -37,8 +36,9 @@ public class MainActivity extends AppCompatActivity implements MyDialogInterface
     BottomSheetFragment bottomFragment;
     private PDFListViewModel mViewModel;
     private RecyclerView recyclerView;
-    private PDFAdapter adapter;
+    private PDFListAdapter adapter;
     private DrawerLayout mDrawerLayout;
+    private boolean isMultiselect =false;
     private int choosed=0;
     NavigationView navigationView;
     @Override
@@ -103,15 +103,27 @@ public class MainActivity extends AppCompatActivity implements MyDialogInterface
     }
 
     private void initViewModel() {
-        adapter = new PDFAdapter(this);
+        adapter = new PDFListAdapter(this);
         adapter.setOnClickListener((view, position) -> {
-            long tmp=adapter.getItemId(position);
-            showButtonSheet(adapter.getItemId(position));
+            if (isMultiselect){
+                chooseMode();
+            }
+            else {
+                long tmp=adapter.getItemId(position);
+                showButtonSheet(adapter.getItemId(position));
+            }
+
         });
         recyclerView.setAdapter(adapter);
         mViewModel = ViewModelProviders.of(this).get(PDFListViewModel.class);
         mViewModel.getPDFs().observe(this, (adapter::update));
     }
+
+    private void chooseMode() {
+        adapter.setMultiselect(true);
+        //
+    }
+
     public void showButtonSheet(long id) {
         bottomFragment = new BottomSheetFragment();
         Bundle bundle=new Bundle();

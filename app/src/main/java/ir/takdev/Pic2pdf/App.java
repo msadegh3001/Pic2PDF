@@ -37,13 +37,15 @@ public class App extends Application {
 
     private void initDataBase() {
         try {
-
             Box<PDF> pdf=App.getBoxStore().boxFor(PDF.class);
-            List<PDF> pdfs = new ArrayList<PDF>();
-            for (int i=1;i<25;i++){
-                pdfs.add(new PDF(""+i+" مگابایت", "مدارک "+i+""));
+            if(pdf.count()==0){
+                List<PDF> pdfs = new ArrayList<PDF>();
+                for (int i=1;i<3;i++){
+                    pdfs.add(new PDF(""+i+" مگابایت", "مدارک "+i+""));
+                }
+                pdf.put(pdfs);
             }
-            pdf.put(pdfs);
+
         } catch (Exception ex) {
 
         }
