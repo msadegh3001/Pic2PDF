@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [io.objectbox:objectbox-android:2.2.0] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\jetified-objectbox-android-2.2.0.aar\83ae644e10fbafa8a06fbf97a55d6fdd\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\2de27fe3314c3bad1c2eba008a108fa0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\41a29e3d9ac34b2d1e67af6539845f4b\AndroidManifest.xml:2:1-13:12
@@ -47,27 +47,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Rata03\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c9851a21e72f18d9d3e68928b3713a6e\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\b064ed47fd5017f3909246bdc1348a87\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha01.aar\b7086b102cd91387f10730e790baf6c9\AndroidManifest.xml:17:1-25:12
-INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:4:5-32
 		INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:6:5-25:19
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:6:5-24:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\2de27fe3314c3bad1c2eba008a108fa0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\2de27fe3314c3bad1c2eba008a108fa0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\Rata03\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\41a29e3d9ac34b2d1e67af6539845f4b\AndroidManifest.xml:11:5-20
@@ -108,33 +108,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\
 	tools:replace
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:13:9-37
 	android:name
-		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:7:9-27
+		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:7:9-28
 activity#ir.takdev.Pic2pdf.view.SplashActivity
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:15:9-20:20
 	android:name
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:15:19-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:18:27-74
 activity#ir.takdev.Pic2pdf.view.MainActivity
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:22:9-72
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:21:9-72
 	android:name
-		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:22:19-69
+		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:21:19-69
 activity#ir.takdev.Pic2pdf.view.NewpdfActivity
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:23:9-74
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:22:9-74
+	android:name
+		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:22:19-71
+activity#ir.takdev.Pic2pdf.view.CameraActivity
+ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:23:9-73
 	android:name
 		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:23:19-71
-activity#ir.takdev.Pic2pdf.view.CameraActivity
-ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:24:9-73
-	android:name
-		ADDED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml:24:19-71
 uses-sdk
 INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Rata03\Desktop\Pic2PDF\app\src\main\AndroidManifest.xml

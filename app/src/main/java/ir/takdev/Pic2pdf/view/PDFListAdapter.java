@@ -1,6 +1,4 @@
 package ir.takdev.Pic2pdf.view;
-
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,15 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import ir.takdev.Pic2pdf.R;
 import ir.takdev.Pic2pdf.Utility.RecyclerViewClickListener;
 import ir.takdev.Pic2pdf.model.PDF;
-
-
 import java.util.ArrayList;
 import java.util.List;
-
 import androidx.recyclerview.widget.RecyclerView;
 
 public class PDFListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -24,6 +18,7 @@ public class PDFListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     private List<PDF> mPDFs = new ArrayList<>();
     private RecyclerViewClickListener mListener;
     private boolean isMultiselect =false;
+    private boolean isselected =false;
     private Context context;
 
     public PDFListAdapter(Context context) {
@@ -81,7 +76,6 @@ public class PDFListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         public long getId() {
             return id;
         }
-
         private RecyclerViewClickListener mListener;
 
         public PDFViewHolder(View itemView, RecyclerViewClickListener listener,Context context) {

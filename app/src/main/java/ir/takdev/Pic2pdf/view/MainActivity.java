@@ -23,6 +23,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import ir.takdev.Pic2pdf.App;
 import ir.takdev.Pic2pdf.R;
 import ir.takdev.Pic2pdf.Utility.Actions;
 import ir.takdev.Pic2pdf.Utility.MyDialogInterface;
@@ -84,6 +85,7 @@ public class MainActivity extends AppCompatActivity implements MyDialogInterface
                 RadioDialog_newpdf();
             }
         });
+
     }
     private void bindViews(){
         try {
@@ -131,7 +133,6 @@ public class MainActivity extends AppCompatActivity implements MyDialogInterface
         bottomFragment.setArguments(bundle);
         bottomFragment.setAction(this);
         bottomFragment.show(getSupportFragmentManager(), bottomFragment.getTag());
-        //Toast.makeText(this,"Hello",Toast.LENGTH_LONG).show();
     }
     public void deletePDF() {
         new SweetAlertDialog(this, SweetAlertDialog.WARNING_TYPE)
@@ -211,6 +212,8 @@ public class MainActivity extends AppCompatActivity implements MyDialogInterface
         return false;
     }
     public void RadioDialog_newpdf() {
+        // Toast.makeText(App.context,"Hello",Toast.LENGTH_LONG).show();
+
         String[] singleChoiceItems = getResources().getStringArray(R.array.dialog_single_choice_array);
         int itemSelected =0;
         choosed=itemSelected;
